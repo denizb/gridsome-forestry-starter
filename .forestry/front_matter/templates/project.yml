@@ -11,6 +11,12 @@ fields:
   label: Title
   config:
     required: true
+- name: up
+  type: file
+  config:
+    maxSize: 250
+  label: up
+  description: weer
 - type: datetime
   name: date
   label: Date
